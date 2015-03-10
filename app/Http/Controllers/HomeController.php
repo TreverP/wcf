@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace wcf\Http\Controllers;
 
 class HomeController extends Controller {
 
@@ -12,16 +12,6 @@ class HomeController extends Controller {
 	| controller as you wish. It is just here to get your app started!
 	|
 	*/
-
-	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
-	public function __construct()
-	{
-		$this->middleware('auth');
-	}
 
 	/**
 	 * Show the application dashboard to the user.

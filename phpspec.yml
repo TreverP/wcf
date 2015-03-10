@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: wcf
+        psr4_prefix: wcf
         src_path: app
